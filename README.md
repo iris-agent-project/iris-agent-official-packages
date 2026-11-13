@@ -23,3 +23,7 @@ You check a package with the Iris SDK's conformance run, which proves the packag
 ```sh
 iris-sdk check search
 ```
+
+## Licence
+
+This repository is licensed under the [Apache License 2.0](LICENSE).
