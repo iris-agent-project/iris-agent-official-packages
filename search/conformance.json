@@ -1,0 +1,13 @@
+{
+  "fakes": {"api.firecrawl.dev": "firecrawl"},
+  "calls": {
+    "web_search": [
+      {"query": "iris flowers", "limit": 3},
+      {"query": "iris flowers"}
+    ],
+    "web_extract": [
+      {"urls": ["https://example.com/a"]},
+      {"urls": ["https://long.example/page", "https://missing.example/page", "example.com/no-scheme"]}
+    ]
+  }
+}
